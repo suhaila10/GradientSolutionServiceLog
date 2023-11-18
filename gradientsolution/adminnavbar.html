@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dashboard.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <style>
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1><img src="images/logo.png" alt="" width="62.5" height="41.63">GRADIENT SOLUTION SERVICE LOG - TEAM</h1>
+</header>
+
+<nav>
+    <a class="active" href="admin_dashboard.php">Home</a>
+    <a href="acservices.php" target="_top">Add Records</a>
+    <a href="admindisplay_records.php">Update/Delete Records</a>
+    <!-- Enquiries dropdown -->
+    <div class="dropdown"><a href="adminreply_enquiry.php">Enquiries</a>
+        <span class="dropdown-icon"></span>
+        <div class="dropdown-content">
+            <a href="adminalready_replyenquiry.php">Replied Enquiries</a>
+            <a href="adminnotyet_replyenquiry.php">Unreplied Enquiries</a>
+        </div>
+    </div>
+
+    <a href="admin_approval.php">Account Approval</a>
+    <a href="logout.php">Logout <span class="glyphicon glyphicon-log-out"></span></a>
+</nav>
+
+</body>
+</html>

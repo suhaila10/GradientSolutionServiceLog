@@ -1,0 +1,51 @@
+/* Add this to your existing or new CSS file */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 50%;
+    margin: auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+h3 {
+    color: #333;
+}
+
+form {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+#submit-no {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+#submit-no[value="Yes"] {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+#submit-no[value="No"] {
+    background-color: #28a745;
+    color: #fff;
+}
